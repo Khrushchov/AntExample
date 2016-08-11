@@ -1,0 +1,21 @@
+
+	 1000 measures 
+ 10000 els	|add(ms)|get(ms)|remove(ms)|contains(ms)|populate(ms)|iterator.add(ns)|iterator.remove(ns)| 
+ArrayList	|	2	|	0	|	1		|	90		|	2		|	6507894		|	6853825		|
+LinkedList	|	3	|	1	|	4		|	83		|	2		|	481498		|	971676		|
+HashSet		|	0	|	--	|	1		|	0		|	5		|		----	|	----		|
+TreeSet		|	0	|	--	|	2		|	1		|	9		|		----	|	----		|
+
+	 1000 measures 
+ 100000 els	|add(ms)|get(ms)|remove(ms)|contains(ms)|populate(ms)|iterator.add(ns)|iterator.remove(ns)| 
+ArrayList	|	12	|	0	|	8		|	682		|	8		|	41959060		|	32036941		|
+LinkedList	|	96	|	110	|	96		|	598		|	22		|	194335		|	475153		|
+HashSet		|	0	|	--	|	0		|	1		|	16		|		----	|	----		|
+TreeSet		|	1	|	--	|	0		|	0		|	65		|		----	|	----		|
+
+	 1000 measures 
+ 1000000 els	|add(ms)|get(ms)|remove(ms)|contains(ms)|populate(ms)|iterator.add(ns)|iterator.remove(ns)| 
+ArrayList	|	248	|	0	|	158		|	3873		|	132		|	603940666		|	422719999		|
+LinkedList	|	6389	|	6386	|	6565		|	6185		|	392		|	62775		|	31387		|
+HashSet		|	0	|	--	|	0		|	1		|	454		|		----	|	----		|
+TreeSet		|	0	|	--	|	0		|	0		|	344		|		----	|	----		|
